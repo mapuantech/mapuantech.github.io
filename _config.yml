@@ -1,0 +1,11 @@
+# Site settings
+title: Mapuan Tech StartUps
+description: > # this means to ignore newlines until "baseurl:"
+  A community of Mapuan students and alumni and professors all engaged in 
+  developing and promoting the culture of technology startup and entrepreneurship.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mapuan.tech" # the base hostname & protocol for your site
+github_username:  mapuantech
+
+# Build settings
+markdown: kramdown
