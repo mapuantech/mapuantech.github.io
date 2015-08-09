@@ -1,2 +1,55 @@
 // NOTE: Start your styling below
 // Uses base and bae for styling
+body {
+  height: 100%;
+  width: 100%;
+}
+.drama {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex;
+  align-items: flex;
+  height: 100%;
+  width: 100%;
+}
+.drama-scene.drama-scene--brag {
+  background-color: $primary; // _color.scss
+  color: $white;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  @include font-sansN7;
+  text-decoration: none;
+  color: $white;
+}
+.title--boxCapital {
+  text-transform: uppercase;
+}
+.trigger--bottomRight {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+.button {
+  font-weight: 700;
+}
+.button.button--light {
+  background-color: $whiteA1;
+}
+.context {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+.context-description {
+  color: $whiteA7;
+}
+@media #{$range-tablet-up} {
+  .context {
+    bottom: 10px;
+  }
+}

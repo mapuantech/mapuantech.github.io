@@ -21,6 +21,7 @@ $breakpoint-desktop: 840px;
 
 $range: "(max-width: #{$breakpoint-tablet - 1px})";
 $range-tablet: "(min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-desktop - 1px})";
+$range-tablet-up: "(min-width: #{$breakpoint-tablet})";
 $range-desktop: "(min-width: #{$breakpoint-desktop})";
 
 // screen application

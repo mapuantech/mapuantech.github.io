@@ -6,6 +6,5 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mapuan.tech" # the base hostname & protocol for your site
 github_username:  mapuantech
-
 # Build settings
 markdown: kramdown
