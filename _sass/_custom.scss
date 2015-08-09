@@ -43,13 +43,12 @@ body {
 .context {
   position: absolute;
   bottom: 30px;
-  left: 10px;
 }
 .context-description {
   color: $whiteA7;
 }
 @media #{$range-tablet-up} {
   .context {
-    bottom: 10px;
+    bottom: 0;
   }
 }
