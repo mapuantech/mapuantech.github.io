@@ -1,0 +1,84 @@
+.button {
+  @include font-sansN4;
+  position: relative;
+  display: inline-block;
+  height: 32px;
+  min-width: 64px;
+  padding: 0 13px;
+  vertical-align: middle;
+  font-size: $fontSize-base--button;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  color: $color-blackA8--button;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-rendering: optimizeLegibility;
+}
+.button::-moz-focus-inner {
+  border: 0;
+}
+.button:hover {
+  background-color: $bgColor-blackA1--buttonHover;
+}
+.button:focus:not(:active) {
+  background-color: $bgColor-blackA1--buttonFocus;
+}
+.button:active {
+  background-color: $bgColor-blackA2--buttonActive;
+}
+.button[disabled][disabled] {
+  color: $bgColor-blackA2--buttonDisable;
+  cursor: auto;
+  background-color: transparent;
+}
+a.button:focus {
+  outline: none;
+}
+input.button[type="submit"] {
+  -webkit-appearance: none;
+}
+// button with colors
+.button--filled {
+  color: $color-white--buttonFilled;
+}
+// primary button modifier
+.button--primary {
+  background-color: $bgColor-primary--buttonPrimary;
+}
+.button--primary:hover {
+  background-color: darken($bgColor-primary--buttonPrimary, 5);
+}
+.button--primary:focus:not(:active) {
+  background-color: darken($bgColor-primary--buttonPrimary, 5);
+}
+.button--primary:active {
+  background-color: darken($bgColor-primary--buttonPrimary, 10);
+}
+// accent button modifier
+.button--accent {
+  background-color: $bgColor-accent--buttonAccent;
+}
+.button--accent:hover {
+  background-color: darken($bgColor-accent--buttonAccent, 5);
+}
+.button--accent:focus:not(:active) {
+  background-color: darken($bgColor-accent--buttonAccent, 5);
+}
+.button--accent:active {
+  background-color: darken($bgColor-accent--buttonAccent, 10);
+}
+// white button modifier
+.button.button--white {
+  background-color: rgb(255, 255, 255);
+}
+.button--white:focus:not(:active) {
+  background-color: white;
+}
