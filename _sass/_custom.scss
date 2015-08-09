@@ -48,6 +48,30 @@ body {
 .context-description {
   color: $whiteA7;
 }
+.post-list {
+  text-decoration: none;
+  list-style: none;
+  vertical-align: middle;
+}
+.post-list li {
+  margin-bottom: 20px;
+}
+.post-link {
+  display: inline;
+  color: $blackA8;
+  font-size: 24px;
+}
+.social {
+  color: $blackA2;
+}
+.social-link {
+  font-size: 36px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.social-link--facebook {
+  color: #3b5999;
+}
 @media #{$range-tablet-up} {
   .context {
     bottom: 0;
