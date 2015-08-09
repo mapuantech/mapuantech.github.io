@@ -14,7 +14,6 @@ layout: default
         </a>
       </div>
     </div>
-
     <div class="rocket">
       <div class="rocket-body"></div>
       <div class="rocket-window"></div>
@@ -22,8 +21,6 @@ layout: default
       <div class="rocket-emission"></div>
       <div class="rocket-fire"></div>
     </div>
-
-
     <div class="context">
       <div class="grid">
         <div class="cell cell--default4">
@@ -34,8 +31,37 @@ layout: default
       </div>
     </div>
     <div class="trigger trigger--bottomRight">
-      <a class="button button--light button--filled">About</a>
-      <a class="button button--white">Event / Blog</a>
+      {% for page in site.pages %}
+        {% if page.title %}
+        <a class="button button--light button--filled" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+      <a class="button button--white" href="#blog-event">Event / Blog</a>
     </div>
+  </div>
+</section>
+<section class="blog">
+  <div class="grid">
+    <div class="cell cell--default3"></div>
+    <div class="cell cell--phone4 cell--tablet8 cell--default6">
+      <center>
+        <h3 id="blog-event">Event / Blog</h3>
+        <h3>
+          <small>See what's new on Mapua Tech Startups.</small>
+        </h3>
+        <hr>
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            &nbsp;&mdash;&nbsp;
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </center>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+    <div class="cell cell--default3"></div>
   </div>
 </section>
