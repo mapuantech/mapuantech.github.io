@@ -49,12 +49,18 @@ body {
   color: $whiteA7;
 }
 .post-list {
+  padding: 0;
+  list-style-type: none;
   text-decoration: none;
-  list-style: none;
   vertical-align: middle;
 }
 .post-list li {
   margin-bottom: 20px;
+}
+.post-meta {
+  @include font-sansI3;
+  display: block;
+  color: $blackA5;
 }
 .post-link {
   display: inline;
@@ -71,6 +77,10 @@ body {
 }
 .social-link--facebook {
   color: #3b5999;
+}
+// grid additionals
+.grid--center {
+  justify-content: center;
 }
 @media #{$range-tablet-up} {
   .context {

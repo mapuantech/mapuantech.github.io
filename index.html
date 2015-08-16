@@ -41,8 +41,7 @@ layout: default
   </div>
 </section>
 <section class="blog">
-  <div class="grid">
-    <div class="cell cell--default3"></div>
+  <div class="grid grid--center">
     <div class="cell cell--phone4 cell--tablet8 cell--default6">
       <center>
         <h3 id="blog-event">Event / Blog</h3>
@@ -54,7 +53,6 @@ layout: default
           {% for post in site.posts %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            &nbsp;&mdash;&nbsp;
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </li>
           {% endfor %}
@@ -62,6 +60,5 @@ layout: default
       </center>
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>
-    <div class="cell cell--default3"></div>
   </div>
 </section>
