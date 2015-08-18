@@ -82,6 +82,10 @@ body {
 .grid--center {
   justify-content: center;
 }
+// slack button
+.slack-button {
+  vertical-align: middle;
+}
 @media #{$range-tablet-up} {
   .context {
     bottom: 0;
