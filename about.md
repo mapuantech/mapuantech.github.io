@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Mapúan Tech Startups: Connect, Collaborate, Create.
+## Mapúan Tech Startups: Connect, Collaborate, Create.
 
 **Mapúan Tech Startups** is a community of students and alumni who are engaged in developing and promoting the culture of technology startup and entrepreneurship. We envision to create a space where tech startup enthusiasts can connect, collaborate and create.
 
