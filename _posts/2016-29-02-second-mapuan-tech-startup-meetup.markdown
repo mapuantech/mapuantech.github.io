@@ -12,7 +12,7 @@ Where: Starbucks Intramuros, Manila
 {% endhighlight %}
 
 Let's have an afternoon of updates from **Mapuan Tech Community**.
-join us for an engaging and interactive talk from mapuans in the start up industry. Meet others who want to make the leap.
+Join us for an engaging and interactive talk from mapuans in the start up industry. Meet others who want to make the leap.
 
 Let's talk about startup projects and planning future activities.
 
