@@ -18,5 +18,5 @@ Let's talk about startup projects and planning future activities.
 
 Everybody's welcome! Cheers!
 
-Also join to our facebook and slack group. Where you can chat, share, and talk to the commnuity.
+Also join our facebook and slack group where you can share your thoughts and talk to the community.
 [Facebook](https://www.facebook.com/groups/225295784331139) and [slack.mapuan.tech](http://slack.mapuan.tech)
