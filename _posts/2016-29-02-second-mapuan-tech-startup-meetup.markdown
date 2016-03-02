@@ -20,3 +20,5 @@ Everybody's welcome! Cheers!
 
 Also join our facebook and slack group where you can share your thoughts and talk to the community.
 [Facebook](https://www.facebook.com/groups/225295784331139) and [slack.mapuan.tech](http://slack.mapuan.tech)
+
+Need direction or any help? Contact Chito at 0932-850-6132
