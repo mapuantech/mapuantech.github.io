@@ -2,7 +2,7 @@
 layout: post
 title:  "2nd - Mapuan Tech Startup Meetup"
 date:   2016-02-29 15:32:00
-categories: 2nd mapuan mapua meetup
+categories: meetup
 ---
 
 {% highlight ruby %}
