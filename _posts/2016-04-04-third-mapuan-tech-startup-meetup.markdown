@@ -8,7 +8,7 @@ categories: meetup
 {% highlight ruby %}
 **MEETUP DETAILS**
 When: April 16, 1 PM onwards
-Where: Yellow Cab, Greenfield District Shaw Boulevard, Mandaluyong
+Where: Microsoft Philippines, 6750 Ayala Avenue, Makati, Philippines
 {% endhighlight %}
 
 Let's have an afternoon of updates from the **Mapuan Tech Community**.
