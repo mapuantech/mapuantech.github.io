@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "3rd - Mapuan Tech StartUp Meetup"
+title:  "3rd - Mapuan Tech StartUps Meetup"
 date:   2016-04-04 22:58:00
 categories: meetup
 ---
